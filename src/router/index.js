@@ -1,7 +1,7 @@
 import VueRouter from 'vue-router';
-import HomePage from '../business/home';
-import InfoListPage from '../business/info-list'
-import LoginPage from '../business/login'
+import HomePage from '../business/home/index';
+import InfoListPage from '../business/info-list/index'
+import LoginPage from '../business/login/index'
 const routes = [
   {
     path: '/home',
